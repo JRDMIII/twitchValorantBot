@@ -17,7 +17,7 @@ class chat_application():
 
     def start_receiver(self):
         print("Starting receiver")
-        self.name = "PC"
+        self.name = "Laptop"
         rcv = threading.Thread(target=self.receive)
         rcv.start()
 
